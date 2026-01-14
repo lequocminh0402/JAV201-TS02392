@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig">
+    <option name="reLastEntityCreationPackage" value="src/main/java/model" />
+    <option name="reverseEngineeringLastDbConnectionId" value="956de9b3-1a06-423e-928e-0f28de8312d7" />
+  </component>
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit moduleName="Lab2" name="PolyOE" framework="JPA" ormUnit="Lab2:default" defaultDataSourceId="956de9b3-1a06-423e-928e-0f28de8312d7" />
+    </persistence-units>
+  </component>
+</project>
