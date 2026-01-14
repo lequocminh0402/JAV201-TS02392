@@ -11,7 +11,7 @@
         <c:url var="crudUrl" value="/user/crud/index"/>
 
         <a href="${crudUrl}">
-            ⚙️ Quản lý User
+            ⚙️ Quản lý người dùng
         </a>
 
     </nav>
