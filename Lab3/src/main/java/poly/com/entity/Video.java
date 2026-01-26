@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.Nationalized;
 
+import java.util.List;
+
 @Entity
 @Table(name = "Videos")
 public class Video {
@@ -30,6 +32,7 @@ public class Video {
     private Boolean active;
 
     @OneToMany(mappedBy = "video")
+    private List<Favorite> favorite;
 
     public String getId() {
         return id;
